@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  width: 484px;
+  height: 475px;
+  border-radius: 76px;
+  background: #f5c147;
+  text-align: center;
+}
+.medium-img {
+  width: 188px;
+  height: 44px;
+  border-radius: 22px;
+  margin: 27px 148px 20px 148px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.login-title {
+  color: #000;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.login-input {
+  width: 378px;
+  height: 60px;
+  border-radius: 17px;
+  border: 3px solid #000;
+  background: #fff;
+  color: #787878;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-indent: 22px;
+  margin-bottom: 40px;
+}
+.login-pass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 378px;
+  height: 60px;
+  border-radius: 17px;
+  border: 3px solid #000;
+  background: #fff;
+  margin-left: 55px;
+  margin-bottom: 18px;
+  padding: 0px 22px;
+  color: #787878;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.log-pass {
+  color: #787878;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.log-div {
+  position: relative;
+}
+.log-eye {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  bottom: 15px;
+  left: 380px;
+}
+.login-btn {
+  width: 203px;
+  height: 62px;
+  border-radius: 23px;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.login-register {
+  display: flex;
+  margin-left: 55px;
+  margin-bottom: 38px;
+}
+.login-text {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.login-link {
+  color: #0027f3;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}

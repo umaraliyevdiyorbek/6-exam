@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding-top: 300px;
+  font-family: "Inter", sans-serif;
+}
+.medium {
+  width: 100vw;
+  height: 1024px;
+  background-color: black;
+}
+.articles {
+  color: #fff;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+}
+button {
+  border: none;
+  cursor: pointer;
+}

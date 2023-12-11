@@ -1,0 +1,62 @@
+.medium {
+  width: 100vw;
+  height: 1024px;
+  background-color: black;
+}
+.stay-back {
+  width: 100%;
+  height: 416px;
+  margin-top: 17px;
+  object-fit: cover;
+  object-position: center;
+}
+.articles {
+  color: #fff;
+  margin: 37px 0px 0px 96px;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cards {
+  width: 100%;
+  height: 336px;
+  display: flex;
+  gap: 0 93px;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.card1 {
+  width: 266px;
+  height: 336px;
+  background-color: black;
+  border: 4px solid rgb(247, 204, 62);
+  text-decoration: none;
+}
+.nature-img {
+  width: 260px;
+  height: 172px;
+  object-fit: cover;
+}
+.nature-title {
+  color: #fff;
+  font-size: 20px;
+  width: 157px;
+  height: 32px;
+  font-weight: 400;
+  margin: 5px 0px;
+}
+.nature-desc {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 15px;
+  line-height: 20px;
+}
+.card2 {
+  width: 266px;
+  height: 336px;
+  background-color: white;
+}
